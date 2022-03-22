@@ -10,4 +10,4 @@ Install the following python libraries
 
 <br>
 <h2>Run</h2>
-python search.py --o images/img1.jpg --d images/img2.jpg
+search.py --o images/img1.jpg --d images/img2.jpg
