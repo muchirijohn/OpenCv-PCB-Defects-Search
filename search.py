@@ -1,4 +1,6 @@
-# import the necessary packages
+#
+# Check for PCB aasembly defects e.g missing components, solder joints, component tilting etc
+#
 from skimage.metrics import structural_similarity as compare_ssim
 import argparse
 import imutils
