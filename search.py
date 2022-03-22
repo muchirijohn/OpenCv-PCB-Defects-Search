@@ -69,7 +69,7 @@ for c in cnts:
 
 
 # show the output images
-cv2.imshow("Original with no markers", DimageA)
+#cv2.imshow("Original with no markers", DimageA)
 cv2.imshow("Test PCB Board - Defects/Missing Parts: {}".format(i), np.concatenate((imageA, imageB), axis=1))
 #cv2.imshow("Test PCB Board - Defects/Missing Parts: {}".format(i), imageB)
 cv2.imshow("Diff", diff)
