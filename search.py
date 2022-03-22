@@ -1,5 +1,6 @@
 #
-# Check for PCB aasembly defects e.g missing components, solder joints, component tilting etc
+# Using OpenCv and Scikit-Image, this program will search for a given set of images and search for differences.
+# Checking for PCB assembly defects e.g missing components, solder joints, component tilting etc
 #
 from skimage.metrics import structural_similarity as compare_ssim
 import argparse
